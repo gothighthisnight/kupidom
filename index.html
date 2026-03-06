@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>КУПИДОМ</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <div class="logo">
+                <svg width="38" height="52" viewBox="0 0 38 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="30.4919" y="16.7158" width="4.91642" height="22.9793" transform="rotate(90 30.4919 16.7158)" fill="white"/>
+                    <rect x="35.4861" y="1.90735e-06" width="4.91642" height="32.9703" transform="rotate(90 35.4861 1.90735e-06)" fill="white"/>
+                    <path d="M21.0003 0.377915L23.9167 4.25848L2.51797 16.6025L2.51797 11.1945L21.0003 0.377915Z" fill="white"/>
+                    <path d="M16.9855 0.377915L14.0692 4.25848L35.4866 16.6019L35.4866 11.1938L16.9855 0.377915Z" fill="white"/>
+                    <rect x="12.5076" y="44.2478" width="4.99551" height="22.6155" transform="rotate(-180 12.5076 44.2478)" fill="white"/>
+                    <rect x="30.4919" y="44.2478" width="4.99551" height="22.6155" transform="rotate(-180 30.4919 44.2478)" fill="white"/>
+                    <rect x="35.4861" y="47.0835" width="4.91642" height="32.9703" transform="rotate(90 35.4861 47.0835)" fill="white"/>
+                </svg>
+                <svg width="148" height="37" viewBox="0 0 148 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M137.101 23.712L140.686 0.375732H148.001V33.2438H143.029V9.67269L139.396 33.2438H134.424L130.504 10.0014V33.2438H125.914V0.375732H133.229L137.101 23.712Z" fill="white"/>
+                    <path d="M111.878 25.684C111.878 26.8735 112.117 27.7187 112.595 28.2195C113.105 28.6891 113.774 28.9239 114.603 28.9239C115.432 28.9239 116.085 28.6891 116.563 28.2195C117.073 27.7187 117.328 26.8735 117.328 25.684V7.93528C117.328 6.74577 117.073 5.91624 116.563 5.4467C116.085 4.94585 115.432 4.69543 114.603 4.69543C113.774 4.69543 113.105 4.94585 112.595 5.4467C112.117 5.91624 111.878 6.74577 111.878 7.93528V25.684ZM106.619 8.26396C106.619 5.60321 107.304 3.56853 108.675 2.1599C110.045 0.719965 112.021 0 114.603 0C117.184 0 119.16 0.719965 120.531 2.1599C121.901 3.56853 122.587 5.60321 122.587 8.26396V25.3553C122.587 28.0161 121.901 30.0664 120.531 31.5063C119.16 32.915 117.184 33.6193 114.603 33.6193C112.021 33.6193 110.045 32.915 108.675 31.5063C107.304 30.0664 106.619 28.0161 106.619 25.3553V8.26396Z" fill="white"/>
+                    <path d="M80.8164 28.5483C81.1032 28.5796 81.406 28.5953 81.7247 28.5953C82.0435 28.5953 82.3462 28.5953 82.6331 28.5953C83.4617 28.5953 84.1629 28.3918 84.7366 27.9849C85.3421 27.5779 85.6449 26.7328 85.6449 25.4493V0.375732H102.282V28.5483H104.959V37.0001H99.6045V33.2438H86.1708V37.0001H80.8164V28.5483ZM90.9037 25.0737C90.9037 26.451 90.7602 27.6092 90.4734 28.5483H97.0229V5.07117H90.9037V25.0737Z" fill="white"/>
+                    <path d="M67.6366 33.2438H62.2344V0.375732H66.9195V20.0496L72.3216 0.375732H78.919V33.2438H74.1861V9.43792L67.6366 33.2438Z" fill="white"/>
+                    <path d="M47.0908 33.2438H41.832V0.375732H58.421V33.2438H53.0666V5.07117H47.0908V33.2438Z" fill="white"/>
+                    <path d="M21.2278 28.5483C21.5146 28.5796 21.8174 28.5953 22.1361 28.5953C22.4548 28.5953 22.7576 28.5953 23.0444 28.5953C23.4588 28.5953 23.8412 28.5483 24.1918 28.4544C24.5743 28.3605 24.893 28.1883 25.148 27.9379C25.4348 27.6875 25.642 27.3275 25.7694 26.858C25.9288 26.3884 26.0085 25.7937 26.0085 25.0737L18.3594 0.375732H23.6181L29.4028 19.627L34.1835 0.375732H39.4422L32.558 24.6042C31.9525 26.858 31.331 28.5953 30.6935 29.8161C30.088 31.0056 29.4346 31.8664 28.7335 32.3986C28.0323 32.8994 27.2674 33.1811 26.4387 33.2438C25.642 33.3064 24.7496 33.3377 23.7616 33.3377C23.2835 33.3377 22.8532 33.3377 22.4708 33.3377C22.0883 33.3377 21.674 33.3064 21.2278 33.2438V28.5483Z" fill="white"/>
+                    <path d="M6.88419 20.1435L5.25876 23.1486V33.2438H0V0.375732H5.25876V14.6968L12.2386 0.375732H17.4017L10.0873 15.0255L17.4017 33.2438H11.9995L6.88419 20.1435Z" fill="white"/>
+                </svg>
+
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="">Главная</a>
+                <a class="nav__link" href="">Каталог</a>
+                <a class="nav__link" href="">О нас</a>
+                <a class="nav__link" href="">Контакты</a>
+                <a class="nav__link" href="">Документация</a>
+            </nav>
+
+            <div class="header__buttons">
+                <button class="btn btn--outline" type="button">Заказать звонок</button>
+
+                <button class="icon-btn" type="button">
+                    <svg width="34" height="30" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.550459 13.6263C0.488057 13.3592 0.483471 13.0804 0.53705 12.8111C0.59063 12.5418 0.700965 12.2891 0.859682 12.0721C1.0184 11.8551 1.22133 11.6796 1.45306 11.5588C1.6848 11.4381 1.93925 11.3753 2.19711 11.3752H31.8029C32.0607 11.3753 32.3152 11.4381 32.5469 11.5588C32.7787 11.6796 32.9816 11.8551 33.1403 12.0721C33.299 12.2891 33.4094 12.5418 33.463 12.8111C33.5165 13.0804 33.5119 13.3592 33.4495 13.6263L30.3752 26.7543C30.1916 27.5385 29.7678 28.2347 29.1711 28.7323C28.5744 29.2298 27.839 29.5001 27.0819 29.5002H6.91808C6.16097 29.5001 5.42563 29.2298 4.82892 28.7323C4.23221 28.2347 3.80837 27.5385 3.62477 26.7543L0.550459 13.6282V13.6263Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.81445 11.3751L13.6048 0.500069" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M27.1848 11.3751L20.3945 0.500069" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <button class="icon-btn" type="button">
+                    <svg width="35" height="29" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.8082 23.2499H24.3V3.99999C24.3 3.07173 23.9418 2.1815 23.3042 1.52512C22.6665 0.868747 21.8017 0.5 20.9 0.5H3.9C2.99826 0.5 2.13346 0.868747 1.49584 1.52512C0.858213 2.1815 0.5 3.07173 0.5 3.99999V21.4999C0.5 21.9641 0.679107 22.4092 0.997918 22.7374C1.31673 23.0655 1.74913 23.2499 2.2 23.2499H3.31252" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M34.5008 21.4999V14.4999C34.5008 12.6434 33.7844 10.863 32.5091 9.55022C31.2339 8.23747 29.5043 7.49997 27.7008 7.49997H24.3008V23.2499H32.8008C33.2516 23.2499 33.6841 23.0655 34.0029 22.7374C34.3217 22.4092 34.5008 21.9641 34.5008 21.4999Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 23.5C21.5 24.8261 22.0795 26.0979 23.1109 27.0355C24.1424 27.9732 25.5413 28.5 27 28.5C28.4587 28.5 29.8576 27.9732 30.8891 27.0355C31.9205 26.0979 32.5 24.8261 32.5 23.5H21.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9 28.5C12.0376 28.5 14.5 26.0376 14.5 23C14.5 19.9624 12.0376 17.5 9 17.5C5.96243 17.5 3.5 19.9624 3.5 23C3.5 26.0376 5.96243 28.5 9 28.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <button class="icon-btn" type="button">
+                    <svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 20.5C26.799 20.5 31.5 25.201 31.5 31C31.5 32.3807 30.3807 33.5 29 33.5H3C1.61929 33.5 0.5 32.3807 0.5 31C0.5 25.201 5.20101 20.5 11 20.5H21Z" stroke="white"/>
+                        <circle cx="16.5" cy="8.5" r="8" stroke="white"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__banner">
+                <div class="hero__background"></div>
+
+                <div class="hero__content">
+                    <h1 class="hero__title">ДОМА ПОД КЛЮЧ</h1>
+                    <p class="hero__text">дом вашей мечты, готовый к жизни!</p>
+                    <button class="btn btn--white" type="button">Заказать звонок</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h2 class="title title--white">КОМАНДА ПРОФЕССИОНАЛОВ</h2>
+
+                <div class="team__grid">            
+                    <div class="team__media">
+                        <div class="team__image"></div>
+
+                        <p class="team__caption">
+                            Фиксированные сроки и контроль каждого этапа строительства, гарант  Вашего спокойствия.
+                        </p>
+                    </div>
+
+                    <div class="team__stats">
+                        <div class="stat">
+                            <div class="stat__title">ДО 30 ЛЕТ</div>
+                            <div class="stat__text">гарантия на все дома</div>
+                        </div>
+
+                        <div class="stat">
+                            <div class="stat__title">&gt; 400 ДОМОВ</div>
+                            <div class="stat__text">построено с 2012 года</div>
+                        </div>
+                        
+                        <div class="stat">
+                            <div class="stat__title">41 538 М2</div>
+                            <div class="stat__text">суммарная площадь</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="advantages">
+            <div class="container">
+                <h2 class="title">ПРЕИМУЩЕСТВА</h2>
+
+                <div class="grid grid--cards">
+                    <article class="card">
+                        <div class="card__icon card__icon--pro"></div>
+                        <h3 class="card__title">Профессиональная команда</h3>
+                        <p class="card__text">В команде работают опытные специалисты, которые обеспечивают высокое качество выполнения всех этапов проектов и услуг.</p>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card__icon card__icon--pro"></div>
+                        <h3 class="card__title">Индивидуальный подход</h3>
+                        <p class="card__text">КУПИДОМ учитывает пожелания клиентов, разрабатывая персонализированные проекты, которые соответствуют всем требованиям и ожиданиям.</p>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card__icon card__icon--pen"></div>
+                        <h3 class="card__title">Креативный дизайн</h3>
+                        <p class="card__text">Компания КУПИДОМ предлагает уникальные решения для оформления домов что позволяет создать неповторимый стиль и атмосферу.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <h2 class="title">КАТАЛОГ</h2>
+
+                <div class="grid grid--catalog">
+                    <article class="house">
+                        <img src="images/3.png" alt="ХАУС 209" class="house__image">
+                        <div class="house__body">
+                            <div class="house__area">140 м2</div>
+                            <div class="house__name">ХАУС 209</div>
+                            <div class="house__price">от 20 000 000 ₽</div>
+                            <button class="btn btn--white-outline" type="button">Подробнее</button>
+                        </div>
+                    </article>
+                    
+                    <article class="house">
+                        <img src="images/4.png" alt="ХАУС 201" class="house__image">
+                        <div class="house__body">
+                            <div class="house__area">72 м2</div>
+                            <div class="house__name">ХАУС 201</div>
+                            <div class="house__price">от 20 000 000 ₽</div>
+                            <button class="btn btn--white-outline" type="button">Подробнее</button>
+                        </div>
+                    </article>
+                    
+                    <article class="house">
+                        <img src="images/5.png" alt="ХАУС 110" class="house__image">
+                        <div class="house__body">
+                            <div class="house__area">98 м2</div>
+                            <div class="house__name">ХАУС 110</div>
+                            <div class="house__price">от 20 000 000 ₽</div>
+                            <button class="btn btn--white-outline" type="button">Подробнее</button>
+                        </div>
+                    </article>
+                    
+                    <article class="house">
+                        <img src="images/6.png" alt="ХАУС 301" class="house__image">
+                        <div class="house__body">
+                            <div class="house__area">169 м2</div>
+                            <div class="house__name">ХАУС 301</div>
+                            <div class="house__price">от 20 000 000 ₽</div>
+                            <button class="btn btn--white-outline" type="button">Подробнее</button>
+                        </div>
+                    </article>
+                    
+                    <article class="house">
+                        <img src="images/7.png" alt="ХАУС 211" class="house__image">
+                        <div class="house__body">
+                            <div class="house__area">187 м2</div>
+                            <div class="house__name">ХАУС 211</div>
+                            <div class="house__price">от 20 000 000 ₽</div>
+                            <button class="btn btn--white-outline" type="button">Подробнее</button>
+                        </div>
+                    </article>
+                    
+                    <article class="house">
+                        <img src="images/8.png" alt="ХАУС 112" class="house__image">
+                        <div class="house__body">
+                            <div class="house__area">130 м2</div>
+                            <div class="house__name">ХАУС 112</div>
+                            <div class="house__price">от 20 000 000 ₽</div>
+                            <button class="btn btn--white-outline" type="button">Подробнее</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="catalog__center">
+                    <button class="btn btn--black" type="button">Перейти в каталог</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="sales">
+            <div class="container">
+                <h2 class="title">АКЦИИ</h2>
+
+                <div class="grid grid--sales">
+                    <article class="sale">
+                        <img src="images/9.png" alt="" class="sale__image">
+                        <div class="sale__body">
+                            <div class="sale__benefit">Доп. выгода</div>
+                            <div class="sale__title">При заказе строительсва на 2025 год</div>
+                            <div class="sale__price">от 20 000 000 ₽</div>
+                        </div>
+                    </article>
+                    
+                    <article class="sale">
+                        <img src="images/10.png" alt="" class="sale__image">
+                        <div class="sale__body">
+                            <div class="sale__benefit">Доп. выгода</div>
+                            <div class="sale__title">При заказе строительсва на 2025 год</div>
+                            <div class="sale__price">от 20 000 000 ₽</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="ipoteka">
+            <div class="container container--ipoteka">
+                <div class="right">
+                    <h2 class="title title--ipoteka">РАССЧИТАТЬ ИПОТЕКУ</h2>
+
+                    <p class="ipoteka__text">Оставьте свои контактные данные, наши менеджеры ответят на все интересующие Вас вопросы.</p>
+
+                    <form class="form">
+                        <label class="field">
+                            <span class="field__label">Стоимость дома</span>
+                            <input class="field__input" type="text" placeholder="Ваша стоимость дома">
+                        </label>
+                        
+                        <label class="field">
+                            <span class="field__label">Первоначальный взнос</span>
+                            <input class="field__input" type="text" placeholder="Ваш первоначальный взнос">
+                        </label>
+                        
+                        <label class="field">
+                            <span class="field__label">Срок кредита</span>
+                            <input class="field__input" type="text" placeholder="Ваш срок кредита">
+                        </label>
+                        
+                        <label class="field">
+                            <span class="field__label">Как вас зовут?</span>
+                            <input class="field__input" type="text" placeholder="Ваше имя">
+                        </label>
+                        
+                        <label class="field field--max">
+                            <span class="field__label">Номер телефона</span>
+                            <input class="field__input" type="text" placeholder="+7 (999) 266-66-68">
+                        </label>
+
+                        <button class="btn btn--black btn--max" type="submit">Рассчитать ипотеку</button>
+                    </form>
+
+                    <p class="ipoteka__text">Нажимая «Рассчитать ипотеку», я соглашаюсь с условиями <u>политики конфиденциальности</u>.</p>
+                </div>
+
+                <div class="left">
+                    <h3 class="ipoteka__title">Построим каркасный дом в ипотеку</h3>
+                    
+                    <p class="ipoteka__text">С нами вы можете построить дом в ипотеку со сниженной процентной ставкой благодаря льготным кредитам — ипотека с господдержкой.</p>
+                    <p class="ipoteka__text">Построить дом в этом случае можно, по ставке от 3%.</p>
+
+                    <img src="images/11.png" alt="" class="ipoteka__image">
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <h2 class="title">ПАРТНЁРЫ</h2>
+
+                <div class="grid grid--partners">
+                    <div class="partner">
+                        <img src="images/12.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/13.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/14.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/15.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/16.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/17.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/18.png" alt="" class="partner__image">
+                    </div>
+                    <div class="partner">
+                        <img src="images/19.png" alt="" class="partner__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h2 class="title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+
+                <div class="faq__items">
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <span class="faq__question">Что подразумевается под «домом под ключ»?</span>
+                        
+                            <div class="faq__icon-box">
+                                <div class="faq__icon">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.5 24.5L0.5 0.5M24.5 0.5L0.5 24.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="faq__answer">
+                            <p class="faq__text">Дом под ключ — это полностью готовый к проживанию объект недвижимости. Мы предоставляем вам дом, в котором выполнены все основные работы: от фундамента до отделки и проведения коммуникаций. Вам останется лишь переехать и наслаждаться новым!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <span class="faq__question">Каков срок строительства дома под ключ?</span>
+                        
+                            <div class="faq__icon-box">
+                                <div class="faq__icon">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.5 24.5L0.5 0.5M24.5 0.5L0.5 24.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="faq__answer">
+                            <p class="faq__text">Построим быстро. Если получили задание 3 марта, то выполним к 6-му.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <span class="faq__question">Могу ли я внести изменения в проект?</span>
+                        
+                            <div class="faq__icon-box">
+                                <div class="faq__icon">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.5 24.5L0.5 0.5M24.5 0.5L0.5 24.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="faq__answer">
+                            <p class="faq__text">К сожалению да.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <span class="faq__question">Что включено в стоимость дома под ключ?</span>
+                        
+                            <div class="faq__icon-box">
+                                <div class="faq__icon">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.5 24.5L0.5 0.5M24.5 0.5L0.5 24.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="faq__answer">
+                            <p class="faq__text">Всё, что находится на территории участка.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <span class="faq__question">Как вы обеспечиваете качество строительства?</span>
+                        
+                            <div class="faq__icon-box">
+                                <div class="faq__icon">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.5 24.5L0.5 0.5M24.5 0.5L0.5 24.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="faq__answer">
+                            <p class="faq__text">Проверяем наличие гражданства у каждого специалиста.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <div class="questions__banner">
+                <div class="questions__map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1336d12b2d831a0b9a2f59ef6d55874c0d3c938460032486a76baa5bee1a4335&amp;source=constructor" frameborder="0"></iframe>
+                </div>
+
+                <div class="questions__card">
+                    <h2 class="title questions__title">ОСТАЛИСЬ ВОПРОСЫ?</h2>
+                    <p class="questions__text">Оставьте свои контактные данные, и мы вам перезвоним</p>
+
+                    <form class="questions__form">
+                        <label class="qfield">
+                            <span class="qfield__label">Как вас зовут?</span>
+                            <input class="qfield__input" type="text" placeholder="Ваше имя">
+                        </label>
+                        
+                        <label class="qfield">
+                            <span class="qfield__label">Номер телефона</span>
+                            <input class="qfield__input" type="text" placeholder="+7 (999) 266-66-68">
+                        </label>
+
+                        <button class="btn btn--black questions_btn">Заказать звонок</button>
+                    </form>
+
+                    <p class="questions__text">Нажимая на кнопку «Заказать звонок», я даю свое согласие на обработку персональных данных и соглашаюсь с условиями <u>политики конфиденциальности</u>.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container footer__grid">
+                <div class="footer_coloumn">
+                    <div class="logo logo--footer">
+                        <svg width="38" height="52" viewBox="0 0 38 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="30.4919" y="16.7158" width="4.91642" height="22.9793" transform="rotate(90 30.4919 16.7158)" fill="white"/>
+                            <rect x="35.4861" y="1.90735e-06" width="4.91642" height="32.9703" transform="rotate(90 35.4861 1.90735e-06)" fill="white"/>
+                            <path d="M21.0003 0.377915L23.9167 4.25848L2.51797 16.6025L2.51797 11.1945L21.0003 0.377915Z" fill="white"/>
+                            <path d="M16.9855 0.377915L14.0692 4.25848L35.4866 16.6019L35.4866 11.1938L16.9855 0.377915Z" fill="white"/>
+                            <rect x="12.5076" y="44.2478" width="4.99551" height="22.6155" transform="rotate(-180 12.5076 44.2478)" fill="white"/>
+                            <rect x="30.4919" y="44.2478" width="4.99551" height="22.6155" transform="rotate(-180 30.4919 44.2478)" fill="white"/>
+                            <rect x="35.4861" y="47.0835" width="4.91642" height="32.9703" transform="rotate(90 35.4861 47.0835)" fill="white"/>
+                        </svg>
+                        <svg width="148" height="37" viewBox="0 0 148 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M137.101 23.712L140.686 0.375732H148.001V33.2438H143.029V9.67269L139.396 33.2438H134.424L130.504 10.0014V33.2438H125.914V0.375732H133.229L137.101 23.712Z" fill="white"/>
+                            <path d="M111.878 25.684C111.878 26.8735 112.117 27.7187 112.595 28.2195C113.105 28.6891 113.774 28.9239 114.603 28.9239C115.432 28.9239 116.085 28.6891 116.563 28.2195C117.073 27.7187 117.328 26.8735 117.328 25.684V7.93528C117.328 6.74577 117.073 5.91624 116.563 5.4467C116.085 4.94585 115.432 4.69543 114.603 4.69543C113.774 4.69543 113.105 4.94585 112.595 5.4467C112.117 5.91624 111.878 6.74577 111.878 7.93528V25.684ZM106.619 8.26396C106.619 5.60321 107.304 3.56853 108.675 2.1599C110.045 0.719965 112.021 0 114.603 0C117.184 0 119.16 0.719965 120.531 2.1599C121.901 3.56853 122.587 5.60321 122.587 8.26396V25.3553C122.587 28.0161 121.901 30.0664 120.531 31.5063C119.16 32.915 117.184 33.6193 114.603 33.6193C112.021 33.6193 110.045 32.915 108.675 31.5063C107.304 30.0664 106.619 28.0161 106.619 25.3553V8.26396Z" fill="white"/>
+                            <path d="M80.8164 28.5483C81.1032 28.5796 81.406 28.5953 81.7247 28.5953C82.0435 28.5953 82.3462 28.5953 82.6331 28.5953C83.4617 28.5953 84.1629 28.3918 84.7366 27.9849C85.3421 27.5779 85.6449 26.7328 85.6449 25.4493V0.375732H102.282V28.5483H104.959V37.0001H99.6045V33.2438H86.1708V37.0001H80.8164V28.5483ZM90.9037 25.0737C90.9037 26.451 90.7602 27.6092 90.4734 28.5483H97.0229V5.07117H90.9037V25.0737Z" fill="white"/>
+                            <path d="M67.6366 33.2438H62.2344V0.375732H66.9195V20.0496L72.3216 0.375732H78.919V33.2438H74.1861V9.43792L67.6366 33.2438Z" fill="white"/>
+                            <path d="M47.0908 33.2438H41.832V0.375732H58.421V33.2438H53.0666V5.07117H47.0908V33.2438Z" fill="white"/>
+                            <path d="M21.2278 28.5483C21.5146 28.5796 21.8174 28.5953 22.1361 28.5953C22.4548 28.5953 22.7576 28.5953 23.0444 28.5953C23.4588 28.5953 23.8412 28.5483 24.1918 28.4544C24.5743 28.3605 24.893 28.1883 25.148 27.9379C25.4348 27.6875 25.642 27.3275 25.7694 26.858C25.9288 26.3884 26.0085 25.7937 26.0085 25.0737L18.3594 0.375732H23.6181L29.4028 19.627L34.1835 0.375732H39.4422L32.558 24.6042C31.9525 26.858 31.331 28.5953 30.6935 29.8161C30.088 31.0056 29.4346 31.8664 28.7335 32.3986C28.0323 32.8994 27.2674 33.1811 26.4387 33.2438C25.642 33.3064 24.7496 33.3377 23.7616 33.3377C23.2835 33.3377 22.8532 33.3377 22.4708 33.3377C22.0883 33.3377 21.674 33.3064 21.2278 33.2438V28.5483Z" fill="white"/>
+                            <path d="M6.88419 20.1435L5.25876 23.1486V33.2438H0V0.375732H5.25876V14.6968L12.2386 0.375732H17.4017L10.0873 15.0255L17.4017 33.2438H11.9995L6.88419 20.1435Z" fill="white"/>
+                        </svg>
+                    </div>
+
+                    <div class="footer__text">© Все права защищены, 2026</div>
+                </div>
+                
+                <div class="footer_coloumn">
+                    <div class="footer__title">МЕНЮ</div>
+                    
+                    <div class="footer__links">
+                        <a href="">Главная</a>
+                        <a href="">Каталог</a>
+                        <a href="">О нас</a>
+                        <a href="">Контакты</a>
+                        <a href="">Документация</a>
+                    </div>
+                </div>
+                
+                <div class="footer_coloumn">
+                    <div class="footer__title">ГРАФИК РАБОТЫ</div>
+                    
+                    <div class="footer__text">
+                        ПН-ПТ с 10:00 до 19:00<br>
+                        Суббота с 10:00 до 15:00<br>
+                        Воскресенье с 10:00 до 15:00
+                    </div>
+                </div>
+                
+                <div class="footer_coloumn">
+                    <div class="footer__title">КОНТАКТЫ</div>
+                    
+                    <div class="footer__text">Россия, г. Казань, ул. Бари Галеева 3а</div>
+                    <div class="footer__text">+7 (999) 266-66-68</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
